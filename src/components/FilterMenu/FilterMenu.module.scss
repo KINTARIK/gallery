@@ -1,0 +1,25 @@
+@import '/src/styles/variables.scss';
+
+.menu {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 45px;
+
+  @media ($tablet) {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(160px, 1fr));
+    gap: 20px;
+  }
+
+  @media ($smal_desktop) {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    gap: 20px;
+  }
+
+  @media ($desktop) {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(265px, 1fr));
+    gap: 20px;
+  }
+}

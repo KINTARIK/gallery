@@ -1,0 +1,33 @@
+@import '/src/styles/variables.scss';
+
+.field-wrapper {
+  position: relative;
+  min-width: 280px;
+
+  @media ($tablet) {
+    min-width: 160px;
+  }
+
+  @media ($smal_desktop) {
+    min-width: 220px;
+  }
+
+  @media ($desktop) {
+    min-width: 265px;
+  }
+}
+
+.clear-button {
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  z-index: 1;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

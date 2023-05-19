@@ -1,6 +1,7 @@
 {
   "name": "gallery",
   "version": "0.1.0",
+  "homepage": "https://kintarik.github.io/gallery/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.4",

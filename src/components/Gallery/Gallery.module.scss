@@ -1,0 +1,46 @@
+@import '/src/styles/variables.scss';
+
+.image-container {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 30px;
+
+  @media ($tablet) {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    margin-bottom: 35px;
+  }
+
+  @media ($smal_desktop) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 40px;
+  }
+
+  @media ($desktop) {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    margin-bottom: 40px;
+  }
+}
+
+.error-message {
+  font-size: 44px;
+}
+
+.error-message--dark {
+  color: white;
+}
+
+.pagination {
+  margin: 0 auto;
+
+  @media ($tablet) {
+    margin: 0;
+  }
+  
+  @media ($smal_desktop) {
+    margin: 0;
+  }
+
+  @media ($desktop) {
+    margin: 0;
+  }
+}
